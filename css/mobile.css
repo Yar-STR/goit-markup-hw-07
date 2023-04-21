@@ -1,0 +1,5 @@
+.container {
+    @media screen and (min-width: 428px){
+        background-color: teal;
+    }
+}
