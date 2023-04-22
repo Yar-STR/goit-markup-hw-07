@@ -29,10 +29,31 @@ margin: 0 auto 36px auto;
 height: auto;}
 
 .team-list {
-    flex-direction:row;
-    flex-wrap: wrap;
-    gap: 64px 24px;
+max-width: 100%;
+flex-direction: row;
+flex-wrap:wrap;
+gap: 64px 24px;
+justify-content: center;
+}
 
+.customer-item-link {
+width: 168px;}
+
+.customer-list {
+    max-width: 552px;
+     gap: 72px 24px;
+}
+
+/* -----//-----FOOTER---//-- */
+
+.footer-section {
+padding: 96px 0px;
+}
+.footer-flex-blocks {
+display: flex;
+   flex-direction: row;
+justify-content: space-between;
+align-items: stretch;
 }
 
 }

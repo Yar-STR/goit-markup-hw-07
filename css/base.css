@@ -298,7 +298,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: var(--skill-descrip);
-text-align: center;
+text-align: left;
 
 }
 
@@ -431,7 +431,7 @@ fill: #F4F4FD;
 
 .customer-section {
 margin: 0px auto;
-padding: 120px 0px;
+padding: 96px 0px;
 background-color: var(--background-color-white);
 }
 
@@ -446,12 +446,13 @@ margin-bottom: 72px;
 }
 
 .customer-list {
-margin: 0px;
+margin: 0px auto;
 padding: 0px;
 display: flex;
-gap: 24px;
+flex-wrap: wrap;
+gap: 72px 16px;
 align-items: center;
-justify-content: space-between;
+justify-content: center;
 }
 
 /* .customer-item {
@@ -461,7 +462,7 @@ justify-content: space-between;
 .customer-item-link {
 margin: 0px;
 padding: 0px;
-width: 168px;
+width: 190px;
 height: 88px;
 border: 1px solid #8E8F99;
 color: #8E8F99;
@@ -491,12 +492,12 @@ color: #404BBF;
 .footer-section {
  
 background: var(--footer-background-color);
-padding: 100px 0px;
+padding: 131px 0px 61px 0px;
 }
 
 .footer-flex {
-  text-align: left;
-  width: 264px;
+  text-align: center;
+  width: 268px;
   padding: 0px;
 }
 
@@ -514,19 +515,21 @@ color: var(--logo-std-ft);
 margin-top: 16px;
 font-size: 16px;
 line-height: 1.5;
-   color: var(--logo-text-ft);
+color: var(--logo-text-ft);
+text-align: left;
 }
 
 /* Socialmedia */
 .footer-flex-blocks {
-   display: flex;
-justify-content: start;
-
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .socnetwork-media {
 width: 208px;
 height: 80px;
-margin: 0 0 0 120px;
+margin: 72px auto 72px auto;
 
 }
 
@@ -539,7 +542,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-banner-color);
 margin-bottom: 16px;
-text-align: left;
+text-align: center;
 }
 
 .soc-media-list {
@@ -581,9 +584,9 @@ background-color: #31D0AA;;
 }
 
 .footer-subscribe {
-   margin: 0px auto 0px 80px;
- 
-   text-align: left;
+   margin: 0px auto;
+    text-align: center;
+    align-items: center;
 }
 .subscribe-text {
 display: block;
@@ -597,11 +600,13 @@ margin-bottom: 16px;
 
 .subscribe-inpt-group {
    display: flex;
-   justify-content: start
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 .subscribe-input {
    
-   width: 264px;
+   max-width: 396px;
    height: 40px;
    border: 1px solid #FFFFFF;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -619,6 +624,7 @@ line-height: 2;
 }
 
 .sbcrb-submit-btn {
+   margin-top: 16px;
    width: 165px;
    height: 40px;
    background: #4D5AE5;
@@ -629,7 +635,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 padding: 8px 24px;
-margin-left: 24px;
 display: flex;
 justify-content: center;
 align-items: center;
