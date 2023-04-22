@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) {
+.section-banner {max-width: 768px; }
+
+.container {
+   width: 736px;
+   padding: 0px;
+   text-align: center;
+   margin: 0px auto;
+ justify-content: space-between;
+}
+
+.site-banner { 
+width: 496px;
+height: 120px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+margin: 0 auto 36px auto;
+}
+.skill-list {
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+}
+.skill-item {
+    text-align: left;
+}
+.skill-descrip {width: 356px;
+height: auto;}
+
+}

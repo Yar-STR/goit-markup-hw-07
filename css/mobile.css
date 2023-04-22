@@ -1,5 +1,14 @@
-.container {
-    @media screen and (min-width: 428px){
-        background-color: teal;
-    }
+@media screen and (min-width: 428px) {
+
+.container {width: 396px;} 
+
+.section-banner {max-width: 428px;}
+.skill-descrip {text-align: left;}
 }
+
+
+
+
+
+
+
