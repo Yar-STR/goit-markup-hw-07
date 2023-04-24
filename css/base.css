@@ -53,7 +53,7 @@ color: var(--body-color);
 
 .container {
    width: 100%;
-   /* padding: 0px 15px; */
+   padding: 0px 15px;
    text-align: center;
    margin: 0px auto;
  /* justify-content: space-between; */
@@ -200,10 +200,10 @@ margin: 0 auto;
 }
 
 .site-banner {
-width: 320px;
+width: 280px;
 height: 80px;
 font-weight: 700;
-font-size: 36px;
+font-size: 28px;
 line-height: 1.11;
 
 text-align: center;

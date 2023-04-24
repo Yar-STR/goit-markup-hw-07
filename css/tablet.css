@@ -2,11 +2,12 @@
 .section-banner {max-width: 768px; }
 
 .container {
-   width: 736px;
+   width: 768px;
    padding: 0px;
    text-align: center;
    margin: 0px auto;
  justify-content: space-between;
+  padding: 0px 15px;
 }
 
 .site-banner { 
@@ -27,6 +28,13 @@ margin: 0 auto 36px auto;
 }
 .skill-descrip {width: 356px;
 height: auto;}
+
+.tablet-text-break-tech-stretegy {
+    padding-right: 40px;
+} 
+.tablet-text-break-tech {
+   padding-right: 5px;
+}
 
 .team-list {
 max-width: 100%;
@@ -51,9 +59,42 @@ padding: 96px 0px;
 }
 .footer-flex-blocks {
 display: flex;
-   flex-direction: row;
+flex-direction: row;
 justify-content: space-between;
-align-items: stretch;
+flex-wrap: wrap;
+align-items: flex-start;
+width: 526px;
+}
+.footer-flex {
+  text-align: left;
+  width: 264px;
+  padding: 0px;
+  margin: 0 24px 72px 0;
+}
+
+.socnetwork-media {
+margin: 0px; 
+}
+.soc-media-title {
+    text-align: left;
+}
+.footer-subscribe {
+    margin: 0;
+}
+.subscribe-text {
+    text-align: left;
+}
+.subscribe-inpt-group {
+flex-direction: row;
+align-items: flex-start;
+}
+.subscribe-input {
+max-width: 264px;
+margin-right: 24px;
+}
+
+.sbcrb-submit-btn {
+    margin: 0;
 }
 
 }

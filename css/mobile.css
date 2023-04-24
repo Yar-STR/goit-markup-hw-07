@@ -1,11 +1,16 @@
 @media screen and (min-width: 428px) {
 
-.container {width: 396px;} 
+.container {width: 426px;} 
 
 .section-banner {max-width: 428px;}
+.site-banner {
+   font-size: 36px;
+   width: 320px;
+}
+.skill-descrip {width: 396px;
+height: auto;}
 .subscribe-input {
-   
-   width: 398px;}
+width: 398px;}
 
 }
 
