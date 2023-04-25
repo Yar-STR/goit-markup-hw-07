@@ -12,6 +12,14 @@ height: auto;}
 .subscribe-input {
 width: 398px;}
 
+.contact-mob-tel {
+   font-size: 36px;
+}
+.soc-media-mob-menu { 
+      width: 328px;  
+       gap: 56px;
+}
+
 }
 
 
