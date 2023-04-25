@@ -3,7 +3,6 @@
 
 .container {
    width: 768px;
-   padding: 0px;
    text-align: center;
    margin: 0px auto;
  justify-content: space-between;
@@ -13,13 +12,23 @@
 display: flex;
 justify-content: space-between;
 margin: 0 auto;
+align-items: center;
  }
-
+.logo-style {
+margin-right: 120px;
+}
 .button-mob-menu {display: none;}
 
 .nav-linklist {display: flex;}
 
-.contact-list {display: flex; }
+.contact-list {  
+  display: flex;
+  flex-direction: column;
+   margin: 0px;
+   padding: 0px;
+   gap: 12px;
+
+ }
 
 .site-banner { 
 width: 496px;

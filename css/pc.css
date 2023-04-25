@@ -6,9 +6,32 @@
    margin: 0px auto;
  justify-content: space-between;
 }
+.header {
+   padding: 24px 0px;
+}
+.logo-style {
+margin-right: 76px;
+}
 
+.contact {
+font-size: 16px;
+line-height: 1.5;}
 
-.section-banner {max-width: 1440px; }
+.contact-list {  
+  display: flex;
+  flex-direction: row;
+   margin: 0px;
+   padding: 0px;
+   gap: 40px;
+ }
+
+ .current-postn::after {
+bottom: -28px;
+ }
+.section-banner {
+max-width: 1440px;
+padding: 188px 0; 
+}
 
 .site-banner { 
 max-width: 496px;
@@ -53,7 +76,9 @@ color: var(--skill-descrip);}
 .tablet-text-break-tech-stretegy, .tablet-text-break-tech {
   padding-right: 0px;
 }
-
+.activity-section{
+display: block;
+}
 .our-team-section {
 padding: 120px 0;
 }
