@@ -9,6 +9,17 @@
  justify-content: space-between;
   padding: 0px 15px;
 }
+.header-box {
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+ }
+
+.button-mob-menu {display: none;}
+
+.nav-linklist {display: flex;}
+
+.contact-list {display: flex; }
 
 .site-banner { 
 width: 496px;

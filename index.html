@@ -17,7 +17,7 @@
   <body>
     <!-- Шапка сайту -->
 
-    <!-- <header class="header">      
+    <header class="header">      
       <div class="container header-box">
       <nav class="nav-menu">
        <div class="logo-style"><a href="./index.html" class="logo-web link">Web<span class="logo-std">Studio</span></a></div>
@@ -26,17 +26,23 @@
           <li><a href="./portfolio.html" class="nav-link link"> Portfolio</a></li>
           <li><a href="" class="nav-link link"> Contacts</a></li>
         </ul>
-      </nav> -->
+    <button type="button" class="button-mob-menu js-open-menu menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
+    <svg width="32" height="22" class="icons-menu-svg" aria-label="mobile menu switch button">
+    <use class="icon-menu" href="./images/menu-btns-svg/mob-menu-btns.svg#icon-btn-menu-mob"></use>
+    </svg>
+      </button>
+   
+      </nav>
       <!-- Контакти в шапці -->
 
-      <!-- <address class="address-font-normal">
+      <address class="address-font-normal">
         <ul class="contact-list list">
         <li><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
         <li><a href="tel:+11(000)111-11-11" class="contact link">+11 (000) 111-11-11</a></li>
       </ul>
       </address>
       </div>
-    </header> -->
+    </header>
 
     <!-- Головна інфа на сайті -->
     <main>
@@ -347,13 +353,48 @@
 </div>
 </form>
  </div> 
-    
-
-</div>
-      
     </div>
+</div>
 
+  <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-btn-cls js-close-menu menu-toggle">
+    <svg class="svg-btn-cls"><use href="./images/modal-btn-svg/modal-btn-cls-svg.svg#icon-modal-btn-cls-svg-opt"></use></svg>
+        </button>
+        
+      <div class="mob-links-container mobile-menu">
+     <ul class="nav-list-mobile list"> 
+          <li><a href="./index.html" class="nav-link-mob link">Studio</a></li>
+          <li><a href="./portfolio.html" class="nav-link-mob link"> Portfolio</a></li>
+          <li><a href="" class="nav-link-mob link"> Contacts</a></li>
+        </ul>
+        </div>
+
+        <div class="contacts-mob-menu">
+         <ul class="contact-list-mob list">
+        <li><a href="tel:+11(000)111-11-11" class="contact-mob-tel link">+11 (000) 111-11-11</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact-mob-mail link">info@devstudio.com</a></li>
+        </ul>
+
+         <ul class="soc-media-mob-menu list">
+            <li class="soc-media-item"> <a href="" class="soc-media-item-link">
+         <svg class="svg-soc-media"> <use href="./images/social-network-links/socnetworks-sprite-optzd2.svg#icon-instagram-orig-opt"></use></svg> 
+            </a></li>
+            <li class="soc-media-item"> <a href="" class="soc-media-item-link">
+          <svg class="svg-soc-media"> <use href="./images/social-network-links/socnetworks-sprite-optzd2.svg#icon-twitter-orig-opt"></use> </svg> 
+            </a></li>
+            <li class="soc-media-item"> <a href="" class="soc-media-item-link">
+                <svg class="svg-soc-media"> <use href="./images/social-network-links/socnetworks-sprite-optzd2.svg#icon-facebook-orig-opt"></use> </svg> 
+            </a></li>
+            <li class="soc-media-item"> <a href="" class="soc-media-item-link">
+                <svg class="svg-soc-media"> <use href="./images/social-network-links/socnetworks-sprite-optzd2.svg#icon-linkedin-orig-opt"></use> </svg> 
+            </a></li>
+          </ul>
+      </div>
+     
+    </div>
+    
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
 
