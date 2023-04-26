@@ -307,12 +307,20 @@ color: #434455;
 .section-banner {
 background: var(--main-text-color);
 padding: 112px 0;
-/* background-image: url(../images/people-office\ 1.jpg); */
+
 background-position: 50% 50%;
 background-repeat: no-repeat;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_mob.jpg);
 max-width: 1440px;
 margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-banner {
+ background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_mob-2x.jpg);
+  }
 }
 
 .site-banner {
@@ -443,6 +451,8 @@ gap: 24px;
 justify-content: space-between;
 padding: 0px;
 }
+
+
 
 /* Section team  */
 .our-team-section {
@@ -936,9 +946,9 @@ line-height: 1.5;
 }
 
 .modal {
-min-width: 408px;
-height: 576px;
-padding: 24px;
+width: 284px;
+height: 586px;
+padding: 10px 10px;
 background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
@@ -958,6 +968,7 @@ opacity: 0;
 .btn-cls-modal {
    padding: 0;
    margin-left: auto;
+   margin-right: 8px;
  display: flex;
 justify-content: center;
 align-items: center;
@@ -1017,7 +1028,7 @@ margin-bottom: 4px;
 } 
 
 .modal-contact-item {
-width: 100%;
+width: 262px;
 height: 40px;
 display: block;
 outline: none;
@@ -1062,7 +1073,7 @@ border-radius: 4px;
 border: 1px solid;
 margin: 0px;
 padding: 8px 16px;
-width: 360px;
+width: 262px;
 min-height: 120px;
 resize: none;
 outline: none;

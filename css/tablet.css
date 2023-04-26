@@ -1,5 +1,15 @@
 @media screen and (min-width: 768px) {
-.section-banner {max-width: 768px; }
+.section-banner {max-width: 768px; 
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_tablet.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-banner {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_tablet-2x.jpg);
+  }
+}
 
 .container {
    width: 768px;
@@ -38,6 +48,7 @@ font-size: 56px;
 line-height: 1.07;
 margin: 0 auto 36px auto;
 }
+
 .skill-list {
     flex-direction:row;
     flex-wrap: wrap;
@@ -115,6 +126,16 @@ margin-right: 24px;
 
 .sbcrb-submit-btn {
     margin: 0;
+}
+
+.modal {
+min-width: 408px;
+height: 586px;
+padding: 24px;
+}
+
+.btn-cls-modal {
+    margin-right: 0px;
 }
 
 }
