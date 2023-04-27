@@ -307,12 +307,12 @@ color: #434455;
 .section-banner {
 background: var(--main-text-color);
 padding: 112px 0;
-
 background-position: 50% 50%;
 background-repeat: no-repeat;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_mob.jpg);
 max-width: 1440px;
 margin: 0 auto;
+background-size: cover; 
 }
 
 @media (min-device-pixel-ratio: 2),
